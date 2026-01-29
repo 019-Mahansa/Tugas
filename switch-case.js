@@ -1,3 +1,4 @@
+//nomor 3
 const fs = require("fs")
 const { stdout,stdin, exit } = require("process")
 const readline = require("readline")
