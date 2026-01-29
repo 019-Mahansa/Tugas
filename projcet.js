@@ -1,3 +1,4 @@
+//nomor 1
 let nilai = [45,80,30,100]
 
 for(let n of nilai){
