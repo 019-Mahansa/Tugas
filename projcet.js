@@ -1,4 +1,4 @@
-//nomor 1
+//nomor1
 let nilai = [45,80,30,100]
 
 for(let n of nilai){
@@ -10,8 +10,10 @@ for(let n of nilai){
         console.log(`nilai ${n} mendapatkan predikat C`)
     }else if(n >= 60){
         console.log(`nilai ${n} mendapatkan predikat D`)
-    }else {
+    }else if(n < 60){
         console.log(`nilai ${n} mendapatkan predikat F`)
+    }else{
+        console.log("Tidak valid! coba lagi")
     }
 }
 
